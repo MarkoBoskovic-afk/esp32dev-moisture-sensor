@@ -28,8 +28,9 @@ The system continuously measures soil moisture percentage using the DFRobot sens
 ## 📱 ESP32 wiring with DFRobot Sensor
 
 DFRobot sensor comes with 4 wires (2 Black, Red and Yellow) in order to connect it I have used following PINs.
-
-1 black --- right side of the ESP32 GND pin
-2 black --- left side of the ESP32 GND pin
-1 red --- left side of ESP32 3v3 pin
+```
+1 black  --- right side of the ESP32 GND pin
+2 black  --- left side of the ESP32 GND pin
+1 red    --- left side of ESP32 3v3 pin
 1 yellow --- left side of ESP32 G34 pin
+```
