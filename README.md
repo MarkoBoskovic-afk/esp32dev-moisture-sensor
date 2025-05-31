@@ -20,6 +20,6 @@ The system continuously measures soil moisture percentage using the DFRobot sens
 ```plaintext
 ┌──────────────┐     BLE      ┌───────────────┐      GPIO       ┌──────────────┐
 │  ESP32 Dev   │ ───────────► │  Raspberry Pi │ ──────────────► │ Relay Module │
-│ Moisture     │              │ + UI Display  │                │ (Pump Control)│
-│ Sensor Input │              │               │                └──────────────┘
+│ Moisture     │              │ + UI Display  │                 │(Pump Control)│
+│ Sensor Input │              │               │                 └──────────────┘
 └──────────────┘              └───────────────┘
